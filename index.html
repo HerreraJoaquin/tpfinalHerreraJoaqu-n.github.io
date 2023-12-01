@@ -3,6 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/papercss@1.9.2/dist/paper.min.css"
+    />
+    
     <title>Aventura Grafica de los tres cerditos (nueva versión) </title>
     <link rel="stylesheet" href="estilos.css">
 </head>
@@ -12,18 +17,18 @@
    <div>
     <header><h1 id="arriba">Tp Final Para Tecno Multimedia 1.</h1></header>  
     <nav>
-        <ul>
-            <li><a href="#Tema">Tema</a></li>
-            <li><a href="#Equipo">Equipo de trabajo</a></li>
-            <li><a href="#Bitácora">Bitácora</a></li>
-            <li><a href="#Obra original">Obra original</a></li>
-            <li><a href="#AG">Aventura Gráfica con Juego</a></li>
+        <ul class="breadcrumb border">
+          <li><a href="#Tema">Tema</a></li>
+              <li><a href="#Equipo">Equipo de trabajo</a></li>
+              <li><a href="#Bitácora">Bitácora</a></li>
+              <li><a href="#Obra original">Obra original</a></li>
+              <li><a href="#AG">Aventura Gráfica con Juego</a></li>
         </ul>
-    </nav> 
+      </nav> 
 
-    <article>
+      <article>
         <h3 id="Tema">Tema</h3>
-            <a href="#arriba"><img src="img/flechas-arriba.png" width="20" height="20" alt=""></a>
+            <a href="#arriba"><img class="noborde" src="img/flechas-arriba.png" width="20" height="20" alt=""></a>
             <p>Este trabajo toma como base el relato de los tres cerditos de un autor anónimo. </p>
             <p>El trabajo consiste en dos partes, la primera era realizar una aventura gráfica con un cuento que nos daban a elegir nuestros profesores, en mí caso elegí este. </p>
             <p>La segunda parte consistía en realizar un videojuego con la temática de la historia e integrarlo a la aventura gráfica. </p>
@@ -31,7 +36,7 @@
     </article>
 
     <article><h3 id="Equipo">Equipo de trabajo</h3>
-        <a href="#arriba"><img src="img/flechas-arriba.png" width="20" height="20" alt=""></a>
+        <a href="#arriba"><img class="noborde" src="img/flechas-arriba.png" width="20" height="20" alt=""></a>
         <p>El trabajo fue realizado por Herrera Joaquín estudiante de Diseño multimedia en la Facultad de Artes de la UNLP</p>
         <img class="perfil" src="img/WhatsApp Image 2023-11-23 at 16.16.15.jpeg" width="125" height="200" alt="foto de Herrera Joaquín">
     </article>
@@ -44,7 +49,7 @@
             <img class="centro" src="img/tp3 23_11_2023 22_59_04.png" width="500" height="400" alt="imagen con los archivos del tp3">
             <h4>Fondos de la historia</h4>
             <img class="centro" src="img/tp3 23_11_2023 22_59_14.png" width="500" height="400" alt="imagen con los diferentes fondos usados en la obra">
-            <p>Para el juego use el mismo del trabajo practico 5, con la diferencia de que, en este caso en vez de haber pantallas de victoria o derrota, la historia continuará o volverá a la última elección elegida para que el jugador tenga la oportunidad de intentar ganar hasta que lo logre. </p>
+            <p>Para el juego use el mismo del trabajo practico 5, con la diferencia de que, en este caso en vez de haber pantallas de victoria o derrota, la historia continuará o el juego se reiniciará para que el jugador tenga la oportunidad de intentar ganar hasta que lo logre. </p>
             <h4>Imagen del juego original</h4>
             <img class="centro" src="img/127.0.0.1_8289 - Google Chrome 23_11_2023 23_11_14.png" width="500" height="400" alt="">
             <h4>Pantallas de Victoria y Derrota</h4>
@@ -57,7 +62,7 @@
 
     <article>
         <h3 id="Obra original">Obra original</h3>
-            <a href="#arriba"><img src="img/flechas-arriba.png" width="20" height="20" alt=""></a>
+            <a href="#arriba"><img class="noborde" src="img/flechas-arriba.png" width="20" height="20" alt=""></a>
             <h4>Los tres cerditos - Anónimo</h4>
             <p>Había una vez tres cerditos que eran hermanos y se fueron por el 
                 mundo a conseguir fortuna. El más grande les dijo a sus hermanos 
@@ -118,14 +123,20 @@
 
     <article>
         <H3 id="AG">Aventura Gráfica con Juego</H3>
-            <a href="#arriba"><img src="img/flechas-arriba.png" width="20" height="20" alt=""></a>
-            <a href="tpfinal/index.html" target="_blank"><button>Click para Jugar</button></a>
+            <a href="#arriba"><img class="noborde" src="img/flechas-arriba.png" width="20" height="20" alt=""></a>
             
+
+         <iframe src="tpfinal/index.html" frameborder="0" width="740" height="600"></iframe>
     </article>
         
         
         <footer><p>Una pagina hecha con amor</p></footer>
     </div>
+    
+    
+</body>
+</html>
+
     
     
 </body>
